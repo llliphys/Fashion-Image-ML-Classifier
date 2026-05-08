@@ -2,14 +2,14 @@ name: image-classifier-ml-ci-cd
 
 on:
   push:
-    branches: [ master ]
+    branches: [main]
   pull_request:
-    branches: [ master ]
+    branches: [main]
   schedule:
     - cron: "0 3 * * *"
 
 jobs:
-  image-classifier-ml-pipeline:
+  build-deploy-ml-pipeline:
     runs-on: ubuntu-latest
 
     steps:
