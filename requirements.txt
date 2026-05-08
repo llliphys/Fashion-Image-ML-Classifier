@@ -2,10 +2,13 @@ numpy
 scipy
 matplotlib
 pandas
+shap
+pytest
+tqdm
+pyyaml
 scikit-learn
 torch
 torchvision
-pytest
+streamlit
 ruff
 black
-streamlit
