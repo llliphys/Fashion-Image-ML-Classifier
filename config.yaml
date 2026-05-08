@@ -1,0 +1,20 @@
+data:
+  batch_size: 64
+  num_workers: 2
+
+random_seed: 23
+
+model:
+  num_classes: 10
+
+training:
+  num_epochs: 10
+  learning_rate: 0.001
+  device: cuda # cpu or cuda
+
+plotting:
+  num_images: 12
+
+paths:
+  model_save_dir: results/models
+  figure_save_dir: results/figures
